@@ -1,0 +1,44 @@
+main: tsk.main.TskPlugin
+name: TskPlugin
+version: 2018.5.29
+description: A spigot plugin by TongShuKang
+load: POSTWORLD
+loadbefore: null
+depend: null
+softdepend:
+  - TskBase
+  - TskUtil
+author: tsk3
+authors:
+  - tsk3
+  - zxj
+website: tsktop.top
+prefix: TSK
+commands:
+  tskenchantment:
+    description: add unsafe enchantment to item
+    aliases:
+      - tsken
+      - te
+    permission: tsk.tskenchantment
+    permission-message: You not have have permission to use this command.
+    usage: 'Usage: /tskenchantment <player> <enchantment> <level>'
+  fly:
+    description: allow or disallow fly for somebody
+    aliases:
+      - f
+    permission: tsk.fly
+    permission-message: You not have have permission to use this command.
+    usage: 'Usage: /fly <player>'
+permissions:
+  tsk.tskenchantment:
+    description: Allows you to use the command
+    default: op
+  tsk.fly:
+    description: Allows you to use the command
+    default: op
+  tsk.*:
+    description: Allows you to use the command from tsk
+    default: op
+    children:
+      tsk.tskenchantment: true
