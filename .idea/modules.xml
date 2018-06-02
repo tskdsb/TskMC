@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpigotPluginAllInOne/SpigotPluginAllInOne.iml" filepath="$PROJECT_DIR$/SpigotPluginAllInOne/SpigotPluginAllInOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TskMC.iml" filepath="$PROJECT_DIR$/TskMC.iml" />
+    </modules>
+  </component>
+</project>

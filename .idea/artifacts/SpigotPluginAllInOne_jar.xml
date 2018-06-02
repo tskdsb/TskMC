@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SpigotPluginAllInOne:jar">
+    <output-path>$PROJECT_DIR$/../../server/plugins</output-path>
+    <root id="archive" name="SpigotPluginAllInOne.jar">
+      <element id="module-output" name="SpigotPluginAllInOne" />
+    </root>
+  </artifact>
+</component>
